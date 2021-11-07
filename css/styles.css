@@ -1,11 +1,9 @@
 :root {
-  --primary-background-color: #ffffff;
+  --primary-color: #ffffff;
   --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
-  --primary-title-color: #ffffff;
-  --secondary-title-color: #212121;
+  --secondary-color: #212121;
   --text-color-light: #757575;
-  --text-color-dark: #212121;
   --accent-color: #2196f3;
 }
 
@@ -21,6 +19,7 @@ ul {
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color-light);
+  background-color: var(--primary-color);
 }
 
 img {
@@ -70,7 +69,7 @@ img {
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: var(--secondary-color);
   margin-bottom: 50px;
 }
 
@@ -81,18 +80,15 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .logo-black {
   color: #000000;
 }
 
-.logo-blue {
-  color: var(--accent-color);
-}
-
 .logo-white {
-  color: #ffffff;
+  color: var(--primary-color);
 }
 
 /*-----------general buttons styles----------------*/
@@ -107,7 +103,7 @@ img {
 
 /* --------------header---------------*/
 .header {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-color);
   border-bottom: 1px solid #ECECEC
 }
 
@@ -139,7 +135,7 @@ img {
 }
 
 .header-menu {
-  color: var(--text-color-dark);
+  color: var(--secondary-color);
   display: flex;
 }
 
@@ -179,7 +175,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: var(--primary-color);
 }
 
 .hero-container > h1 {
@@ -193,7 +189,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primary-color);
   background-color: var(--accent-color);
   min-width: 200px;
   height: 50px;
@@ -204,7 +200,7 @@ img {
 
 /*-------------specifity-------------*/
 .specifity {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-color);
 }
 
 .specificity-list{
@@ -226,7 +222,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-title-color);
+  color: var(--secondary-color);
   margin-bottom: 10px;
 }
 
@@ -238,7 +234,7 @@ img {
 
 /*----------------what we do-------------------*/
 .what-we-do {
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-color);
     padding-top: 0px;
 }
 
@@ -264,7 +260,7 @@ img {
 }
 
 .team-item {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-color);
   height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -281,7 +277,7 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: var(--secondary-color);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -309,7 +305,7 @@ img {
 }
 
 .footer-address-text {
-  color: #ffffff;
+  color: var(--primary-color);
   margin-bottom: 9px;
 }
 
@@ -333,7 +329,7 @@ img {
 
 /*---------------portfolio-----------------*/
 .portfolio {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-color);
 }
 
 .portfolio-list {
@@ -372,7 +368,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-title-color);
+  color: var(--secondary-color);
 }
 
 .portfolio-item-text {
@@ -387,18 +383,18 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-color);
   background-color: var(--light-background-color);
 }
 
 .portfolio-btn-all {
-  color: #ffffff;
+  color: var(--primary-color);
   background-color: var(--accent-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
+  color: var(--primary-color);
   background-color: var(--accent-color);
 }
 
